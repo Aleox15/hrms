@@ -1,0 +1,12 @@
+export default [{"id":1,"nom":"Sebastiano","prenom":"Muat","email":"smuat0@rakuten.co.jp",
+    "password":"mLG60UzjxhYg","dateNaissance":"4/7/2021","sexe":"Masculin","img":'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80',
+    "adressePerso":"00436 Hoepker Junction","telephone":"4022897228","departement":"Marketing",
+    "telephoneCasUrgence":"2425042202","horaireTravail":"8:30am/18:30pm"},
+{"id":2,"nom":"Omar","prenom":"McGuinness","email":"cmcguinness1@1und1.de",
+    "password":"6ufV0e6k","dateNaissance":"8/26/2021","sexe":"Masculin","img":'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    "adressePerso":"37172 Dunning Point","telephone":"7118553670","departement":"Finance",
+    "telephoneCasUrgence":"2574420241","horaireTravail":"18:30/1:00am"},
+{"id":3,"nom":"Melesa","prenom":"Yearns","email":"myearns2@alibaba.com",
+    "password":"BLnbJYttKpL","dateNaissance":"6/11/2021","sexe":"Masculin","img":"https://us.123rf.com/450wm/warrengoldswain/warrengoldswain1309/warrengoldswain130900153/22256397-portrait-of-real-man-face-looking-at-camera-on-blue-background.jpg",
+    "adressePerso":"20299 Banding Point","telephone":"6605069528","departement":"Human Resources",
+    "telephoneCasUrgence":"9648931658","horaireTravail":"8:30am/18:30pm"}]

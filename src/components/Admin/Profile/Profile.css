@@ -1,0 +1,98 @@
+.profile{
+    padding: 10px;
+    
+}
+.profile .modifierProfile{
+    width: 80px;    
+    height: 30px;
+    color: #fff;
+    
+    background-color: #71639e;
+    border: 1px solid #71639e ;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.profile .containDateSexe{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.profile .modifierProfile:hover{
+    background-color: #5e4f91;
+
+}
+.profile .modifierProfileContainer{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.profile .wrapper{
+    box-shadow: 0 4px 20px rgb(0 0 0 / 15%);
+
+    border: 1px solid black;
+    border: 1px solid #c8c8d3;
+
+    padding: 15px;
+    max-width: 1300px;
+    min-width: 600px;
+    margin: 20px 20px 0 0;
+    /* width: 1200px; */
+}
+.profile .personalProfile{
+    display: flex;
+    grid-gap: 10px;
+}
+.profile .titleItem{
+    color: #495057;
+    font-size: 20px;
+} 
+.profile .leftPersonelInfo{
+    flex-grow: 3;
+    padding: 10px;
+}
+.profile .leftPersonelInfo p{
+    margin-bottom: 10px;
+}
+.profile .rightImageName{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+
+}
+
+.imageprofile{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    z-index: 4;
+}
+.rightNameProfile{
+    color: rgb(43, 39, 34);
+    font-size: 30px;
+}
+.imageContainer{
+}
+.profile .professionelProfile{
+    margin-top: 5px;
+    padding: 10px;
+}
+.profile .professionelProfile p{
+    margin-bottom: 10px;
+}
+
+.profile h2{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(172, 157, 157);
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+        /* box-shadow: 0 1px 0 rgb(73 80 87 / 5%); */
+
+}
+
+.profile .labelProfile{
+}

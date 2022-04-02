@@ -1,0 +1,46 @@
+.sidebar{
+    background-color: #71639e;    position: fixed;
+    top: 0;
+    left: 0;
+    /* width: 200px; */
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    transition: .2s ease-out;
+    font-size: 14px !important;
+
+}
+.sidebar .menu{
+    height: 64px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-right: 1px solid #000000;
+}
+
+.menuSide{
+    margin-top: 20px;
+}
+.menuSide .sideNav{
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    transition: 0.5s ease-out ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    padding: 5px 0 5px 0;
+}
+.menuSide .sideNav:hover{
+    /* border: 2px solid black; */
+    border-right: 7px solid rgb(24, 185, 235);
+    /* padding: 5px; */
+    /* border-bottom: 1px solid rgb(243, 1, 1); */
+    /* box-shadow: 1px 1px 1px 1px rgb(19, 15, 219); */
+    background-color: rgb(10, 169, 180);
+    color: white;
+
+}
+  .sideNav img{
+     width: 30px;
+     margin-left: 10px;
+  }

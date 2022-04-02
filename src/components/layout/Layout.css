@@ -1,0 +1,13 @@
+div.layout .content{
+    position: relative;
+    /* background-color: red; */
+    
+    left: 250px;
+    /* width: calc(100% - 200px); */
+    transition: .2s ease-out;
+
+}
+.layout .content{
+    width: calc(100% - 250px);
+
+}

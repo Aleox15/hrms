@@ -1,0 +1,10 @@
+.abscenceG{
+    padding: 10px;
+}
+.validerAbsence{
+    display: flex;
+    grid-gap: 6px;
+}
+.abscenceG .icon{
+    cursor: pointer;
+}
