@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hrms.git/static/css/main.74ef32b0.css",
+    "main.js": "/hrms.git/static/js/main.fc6a3aa1.js",
+    "index.html": "/hrms.git/index.html",
+    "main.74ef32b0.css.map": "/hrms.git/static/css/main.74ef32b0.css.map",
+    "main.fc6a3aa1.js.map": "/hrms.git/static/js/main.fc6a3aa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74ef32b0.css",
+    "static/js/main.fc6a3aa1.js"
+  ]
+}
