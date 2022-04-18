@@ -2,8 +2,10 @@ import React from "react";
 
 const UserContext = React.createContext({
     id:null,
-    username: null,
-    setUsername : ()=>{}
+    userAuth: null,
+    setUserAuth : ()=>{},
+    token : null,
+    setUserAuth : ()=>{},
     // setUser: () => {}
 });
 

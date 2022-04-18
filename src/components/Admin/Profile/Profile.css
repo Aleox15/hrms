@@ -1,6 +1,5 @@
 .profile{
     padding: 10px;
-    
 }
 .profile .modifierProfile{
     width: 80px;    
@@ -85,7 +84,7 @@
     margin-bottom: 10px;
 }
 
-.profile h2{
+.profile .titleItem{
     font-weight: bold;
     border-bottom: 1px solid rgb(172, 157, 157);
     margin-bottom: 10px;
@@ -95,4 +94,5 @@
 }
 
 .profile .labelProfile{
+    color: #665e7e;
 }

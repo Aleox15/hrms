@@ -1,0 +1,59 @@
+.congesAbsenceD{
+    padding: 10px;
+}
+.congesAbsenceD .wrapper{
+    box-shadow: 0 4px 20px rgb(0 0 0 / 15%);
+    border: 1px solid black;
+    border: 1px solid #c8c8d3;
+    padding: 15px;
+    max-width: 1300px;
+    min-width: 600px;
+    margin: 20px 20px 0 0;
+    height: 300px;
+
+    /* text-align: center; */
+}
+
+.congesAbsenceD .titleAbsenceDWrapper{
+    
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+
+}
+
+.datePickerAbsenceD{
+    z-index: 500!important;
+}
+
+/*Table*/
+/* td{
+    width: 50%;
+} */
+table{
+    width: 500px
+}
+tbody{
+    width: 100%;
+}
+.labelModalAbsenceD{
+    width: 30%;
+}
+.inputModalAbsenceD{
+    width: 70%;
+    padding-bottom: 20px;
+}
+.responsableAbsenceD{
+    padding-left: 14px;
+}
+.textAreaAbsencD{
+}
+
+tr{
+    /* height: 40px; */
+}
+
+
+
+

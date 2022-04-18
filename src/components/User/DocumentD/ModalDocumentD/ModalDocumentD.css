@@ -17,6 +17,8 @@
     padding: 20px;
     border: 1px solid #888;
     width: 60%; /* Could be more or less, depending on screen size */
+    max-width: 900px;
+    min-width: 500px;
   }
   
   /* The Close Button */
@@ -38,27 +40,21 @@
 
  .modal .addProfile{
      padding: 10px;
+     display: flex;
+     flex-direction: column;
  }
  .modal .inputProfile{
      margin-bottom: 10px;
  }
  .modal .labelForm{
      display: inline-block;
-     margin-right: 4px;
+     /* margin-right: 4px; */
      width:50%;
  }
-.modal .buttonMpdifierProfile{
-  text-align: center;
-  margin-top: 20px;
-}
-.modal .modalModifierProfile{
-  width: 80px;
-  height: 30px;
-  color: #fff;
-  background-color: #71639e;
-  border: 1px solid #71639e;
-  transition: .3s ease;
-  cursor: pointer;
-}
- /* .buttonMpdifierProfile{
- } */
+ .modal .rightInput{
+     display: inline-block;
+     /* margin-right: 4px; */
+     width:50%;
+ }
+
+

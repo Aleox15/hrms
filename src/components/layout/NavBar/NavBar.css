@@ -1,24 +1,22 @@
 .navbar{
-    background-color: #71639e;   
+    background-color: #22415c;   
     position: sticky;
     top: 0;
     height: 56px;
     display: flex;
     min-width: 200px;
-    /* justify-content: end; */
     align-items: center;
     grid-gap: 20px;
     color: white;
     z-index: 100;
-    /* color: rgb(156, 90, 90); */
 }
 .navbar .leftNav .menuIcon{
-    width: 30px;
+    width: 25px;
     margin-right: 10px;
     cursor: pointer;
-    background-color: rgb(10, 169, 180);
+    background-color: #22415c;
     border-radius: 5px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .navbar .leftNav {
  margin-right: auto;
@@ -38,7 +36,9 @@
 } */
 .navbar .profileNav{
     width: 30px;
+    height: 30px;
     object-fit: cover;
+    border-radius: 50%;
 }
 .navbar .bellNav{
     width: 20px;
@@ -83,7 +83,7 @@
     color: black;
     
 }
-.deconScrollProfile{
+.navbar a{
     text-decoration: none;
     color: black;
     
@@ -91,7 +91,7 @@
 .navbar .scrollProfile li{
     padding: 3px 7px;
     transition: .4s all;
-    padding: 3px 20px;
+    padding: 3px 7px;
 }
 .navbar .scrollProfile li:hover{
     background-color: rgb(168, 162, 162);

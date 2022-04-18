@@ -6,31 +6,34 @@ import { Link } from 'react-router-dom'
 export default function NavBar(props) {
   const [show,setShow] = useState(false)
   // function toggleS(){
-   const {username,setUsername} = useContext(UserContext)
-  
+   const {userAuth,setUserAuth,setToken} = useContext(UserContext)
+   console.log('Navbar')
+
   //   props.setToggle(prev=>!prev)
   // }
   function toggleShow(){
     setShow(prev=>!prev)
   }
   function logout(){
-  setUsername(null)
+  setUserAuth(null)
+  setToken(null)
   localStorage.clear()
   }
   return (
     <div className='navbar'>
                   <div className="leftNav">
+                    
                     <img onClick={props.toggleS} className='menuIcon'src="./assets/icons/menu.png" alt="" />
                   </div>
             <div className='bellNavContainer'>
               <img className='bellNav' src="./assets/icons/bell.png" alt="" />
             </div>
             <div className='righNavProfile' onClick={toggleShow}>
-                <img className='profileNav' src="./assets/icons/profileIcon.png" alt="" />
-                <span>{username}</span>
+                <img className='profileNav' src={userAuth.img} alt="" />
+                <span>{userAuth.nom}</span>
               {show && <div className='scrollProfile'>
                 <ul>
-                  <li>{username}</li>
+                  <Link to='/profile'><li>{userAuth.nom}</li></Link>
                   <li><Link to='/login' className='deconScrollProfile' onClick={logout}>Déconnexion</Link> </li>
                 </ul>
               </div>}

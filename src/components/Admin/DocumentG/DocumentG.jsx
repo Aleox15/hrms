@@ -4,6 +4,8 @@ import Layout from '../../layout/Layout'
 import MaterialTable from '@material-table/core'
 
 export default function DocumentG() {
+  console.log('gestion Document')
+
     const [demandeurs,setDemandeur] = useState([
         { nom: "Mohammad", typeDocument: "Attestation du travail", commentaire:"" },
         { nom: "Hassan", typeDocument: "Attestation du salaire", commentaire:"" },
@@ -22,7 +24,7 @@ export default function DocumentG() {
         
       ]
   return (
-    <Layout className="documentG">
+    <div className="documentG">
             <MaterialTable style={{width:'100%'}}
       title="List Documents"
       columns={columns}
@@ -58,6 +60,6 @@ export default function DocumentG() {
 
       
       />
-    </Layout>
+    </div>
   )
 }

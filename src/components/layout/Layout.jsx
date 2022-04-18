@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
 import NavBar from './NavBar/NavBar'
 import SideBar from './SideBar/SideBar'
+import { Outlet } from 'react-router-dom'
 import "./Layout.css"
-export default function Layout({className,children}) {
+export default function Layout() {
     const [toggle,setToggle] = useState(false);
     const styles = {
         width: toggle? 'calc(100% - 50px)':"calc(100% - 200px)",
@@ -16,8 +17,8 @@ export default function Layout({className,children}) {
         
         <SideBar toggle={toggle} toggleS={toggleS}/>
         <div className='content' style={styles}>
-            <NavBar toggleS={toggleS} />
-            <div className={className}>{children}</div>
+          <NavBar toggleS={toggleS} />
+          <Outlet />
         </div> 
 
     </div>
